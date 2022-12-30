@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
-#first-div {
-  background-image: url("https://images5.alphacoders.com/116/1160328.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 20%,
-      rgba(33, 37, 41, 0)
-    ),
+.first-div {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgb(23, 25, 27)),
     url("https://images5.alphacoders.com/116/1160328.jpg");
 }
 .full-height {
@@ -42,4 +37,32 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+}
+
+/*                                                                   SOCIALS ANIMATIONS                                                               */
+.socials-section .social {
+  opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  transition: all 1s ease;
+}
+.social:hover {
+  opacity: 1;
+  transition: 0.2s;
+}
+.discord:hover {
+  color: rgb(109, 109, 236);
+  transition: 0.2s;
+}
+.pinterest:hover {
+  color: rgb(218, 34, 34);
+  transition: 0.2s;
+}
+.instagram:hover {
+  color: rgb(206, 82, 158);
+  transition: 0.2s;
+}
+.linkedin:hover {
+  color: rgb(4, 132, 192);
+  transition: 0.2s;
 }
