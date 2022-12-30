@@ -1,24 +1,32 @@
 import { Navbar, Container } from "react-bootstrap";
+import { BsCodeSlash } from "react-icons/bs";
+import { FaRegNewspaper } from "react-icons/fa";
+import { SiAboutdotme } from "react-icons/si";
+import { GiSkills } from "react-icons/gi";
+import { TbBooks } from "react-icons/tb";
 export const NavbarComponent = () => {
   return (
     <>
       <Navbar className="w-100" style={{ position: "fixed" }}>
         <Container fluid className="mx-2 me-2  d-flex justify-content-between">
-          <Navbar.Brand className="text-light" href="#home">
-            Dev Tim
+          <Navbar.Brand className="d-flex text-light no-p-no-m" href="#">
+            <span>
+              <BsCodeSlash size={28} />
+            </span>
+            <span className="d-flex align-items-center mx-2"> Dev Tim</span>
           </Navbar.Brand>
           <div>
-            <Navbar.Brand className="text-light" href="#">
-              CV
+            {/* <Navbar.Brand className="text-light" href="#">
+              <FaRegNewspaper size={24} alt="CV" />
+            </Navbar.Brand> */}
+            <Navbar.Brand className="text-light" href="#about">
+              <SiAboutdotme size={24} />
+            </Navbar.Brand>
+            <Navbar.Brand className="text-light" href="#skills">
+              <GiSkills size={24} />
             </Navbar.Brand>
             <Navbar.Brand className="text-light" href="#">
-              Link
-            </Navbar.Brand>
-            <Navbar.Brand className="text-light" href="#">
-              Link
-            </Navbar.Brand>
-            <Navbar.Brand className="text-light" href="#">
-              Link
+              <TbBooks size={24} />
             </Navbar.Brand>
           </div>
         </Container>

@@ -67,3 +67,19 @@
   color: rgb(4, 132, 192);
   transition: 0.2s;
 }
+/* no margin no padding */
+.no-p-no-m {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* fourth div */
+.skills {
+  background-image: linear-gradient(
+    to bottom,
+    #212529,
+    #1e2225,
+    #1c1f22,
+    #191c1e,
+    #17191b
+  );
+}

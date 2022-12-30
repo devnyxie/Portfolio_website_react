@@ -2,7 +2,7 @@ import { Row, Col } from "react-bootstrap";
 
 export const Second_div = () => {
   return (
-    <div className="bg-dark half-height">
+    <div className="bg-dark half-height" id="about">
       <div className="d-flex justify-content-center half-height text-light ">
         {/* <div className="bg-dark w-75">h1</div> */}
         <Row className="w-75 d-flex justify-content-center align-items-center">
