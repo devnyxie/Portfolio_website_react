@@ -12,9 +12,10 @@
 .heading {
   position: relative;
   font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
 }
 .span_one {
-  transition: 0.5s;
+  transition: 1s;
 }
 .heading .span_two {
   opacity: 0;
@@ -23,12 +24,12 @@
 }
 .heading:hover .span_one {
   opacity: 0;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
 }
 
 .heading:hover .span_two {
   opacity: 1;
-  transition-duration: 0.4s;
+  transition-duration: 2s;
 }
 .span_two,
 .span_one {
