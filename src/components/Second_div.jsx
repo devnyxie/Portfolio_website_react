@@ -24,8 +24,8 @@ export const Second_div = () => {
               and deliver meaningful work. At the moment, I'm finishing
               EPICODE's Master Camp to become a Full-Stack Developer, but I'm
               already in search for a good job.
-              <br />
-              <div className="d-flex" id="skills">
+              <hr />
+              <div className="d-flex " id="skills">
                 <Row>
                   <Col>
                     <h6>My front-end skills:</h6>
