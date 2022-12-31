@@ -26,22 +26,25 @@ export const Second_div = () => {
               already in search for a good job.
               <br />
               <div className="d-flex justify-content-around" id="skills">
-                <div>
-                  <h5>My front-end skills:</h5>
-                  <ul>
-                    <li>HTML+CSS</li>
-                    <li>JavaScript/TypeScript</li>
-                    <li>React.js/Redux</li>
-                  </ul>
-                </div>
-                <div>
-                  <h5>My back-end skills:</h5>
-                  <ul>
-                    <li>Express.js</li>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                  </ul>
-                </div>
+                <Row className=" row-cols-sm-1 row-cols-md-2">
+                  <Col xs={6}>
+                    <h5>My front-end skills:</h5>
+                    <ul>
+                      <li>HTML+CSS</li>
+                      <li>JavaScript/TypeScript</li>
+                      <li>React.js/Redux</li>
+                    </ul>
+                  </Col>
+
+                  <Col xs={6}>
+                    <h5>My back-end skills:</h5>
+                    <ul>
+                      <li>Express.js</li>
+                      <li>MongoDB</li>
+                      <li>PostgreSQL</li>
+                    </ul>
+                  </Col>
+                </Row>
               </div>
             </p>
           </Col>
