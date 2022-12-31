@@ -4,7 +4,7 @@ export const Second_div = () => {
   return (
     <div className="bg-dark d-flex justify-content-center p-4" id="about">
       <div className="text-light">
-        <Row className="container d-flex justify-content-around align-items-end">
+        <Row className="container d-flex justify-content-around align-items-center">
           <Col xs={4} id="pfp">
             <img
               src={pfp}
