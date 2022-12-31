@@ -123,6 +123,7 @@ br {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .overlay {
@@ -140,6 +141,7 @@ br {
   text-align: center;
   display: flex;
   align-items: flex-end;
+  border-radius: 5px;
 }
 
 .content:hover .overlay {
