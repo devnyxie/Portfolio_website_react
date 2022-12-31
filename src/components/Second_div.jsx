@@ -2,12 +2,9 @@ import { Row, Col } from "react-bootstrap";
 import pfp from "../data/pfp.jpg";
 export const Second_div = () => {
   return (
-    <div
-      className="bg-dark half-height d-flex justify-content-center"
-      id="about"
-    >
+    <div className="bg-dark d-flex justify-content-center p-4" id="about">
       <div className="text-light">
-        <Row className="container d-flex justify-content-around align-items-center">
+        <Row className="container d-flex justify-content-around align-items-end">
           <Col xs={4} id="pfp">
             <img
               src={pfp}
