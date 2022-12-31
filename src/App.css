@@ -106,6 +106,7 @@ br {
 
 .container_window {
   border: 3px solid #f1f1f1;
+  border-bottom: 4px solid #f1f1f1;
   border-radius: 5px;
 }
 
@@ -113,20 +114,23 @@ br {
   padding: 10px;
   margin: -1px;
   background: #f1f1f1;
+  z-index: 2;
 }
 /*PROJECTS --> DATA (OVERLAY)              START*/
 .content {
   position: relative;
+  z-index: 1;
+  border-radius: 5px;
 }
 
 .image {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 5px;
 }
 
 .overlay {
+  z-index: 1;
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
@@ -141,7 +145,6 @@ br {
   text-align: center;
   display: flex;
   align-items: flex-end;
-  border-radius: 5px;
 }
 
 .content:hover .overlay {
