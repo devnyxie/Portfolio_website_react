@@ -10,14 +10,36 @@ export const Background = () => {
       <div className="d-flex justify-content-center align-items-center half-height text-light ">
         <div className="text-center">
           <h4 className="p-2">Things I code with:</h4>
-          <p align="center">
-            <a href="https://skillicons.dev">
-              <img
-                alt=""
-                src="https://skillicons.dev/icons?i=html,css,bootstrap,nodejs,ts,react,redux,mongodb,git"
-              />
-            </a>
-          </p>
+
+          <Row className="d-flex justify-content-center mt-2 mb-2">
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=html" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=css" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=bootstrap" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=nodejs" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=ts" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=react" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=redux" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=mongodb" />
+            </Col>
+            <Col xs={1}>
+              <img alt="" src="https://skillicons.dev/icons?i=git" />
+            </Col>
+          </Row>
           <div id="stats" align="center">
             <img
               alt=""

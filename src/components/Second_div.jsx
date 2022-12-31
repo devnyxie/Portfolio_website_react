@@ -3,19 +3,19 @@ import pfp from "../data/pfp.jpg";
 export const Second_div = () => {
   return (
     <div
-      className="bg-dark half-height d-flex align-items-center justify-content-center"
+      className="bg-dark half-height d-flex justify-content-center"
       id="about"
     >
       <div className="text-light">
-        <Row className="container d-flex justify-content-center align-items-center">
-          <Col xs={4}>
+        <Row className="container d-flex justify-content-around align-items-center">
+          <Col xs={4} id="pfp">
             <img
               src={pfp}
               className="social w-100"
               style={{ borderRadius: "50%" }}
             />
           </Col>
-          <Col xs={7}>
+          <Col xs={6} id="about">
             <h3>About</h3>
             <hr />
             <p>
@@ -27,7 +27,7 @@ export const Second_div = () => {
               At the moment, I'm finishing EPICODE's Master Camp to become a
               Full-Stack Developer, but I'm already in search for a good job.
               <br />
-              <div className="d-flex justify-content-around">
+              <div className="d-flex justify-content-around" id="skills">
                 <div>
                   <h5>My front-end skills:</h5>
                   <ul>

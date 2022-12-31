@@ -22,13 +22,13 @@ export const First_div = () => {
             </div>
           </div>
         </div>
-        <div className="socials-section w-25">
-          <div className="d-flex justify-content-around position-absolute bottom-0 start-0 text-light w-25 p-4 socials">
-            <FaGithubAlt size={30} className="social github" />
-            <FaLinkedin size={30} className="social linkedin" />
+        <div>
+          <div className="d-flex justify-content-around position-absolute bottom-0 start-0 text-light socials p-4 socials-section">
+            <FaGithubAlt size={30} className="social github me-2" />
+            <FaLinkedin size={30} className="social linkedin me-2" />
             {/* <FaInstagram size={30} className="social instagram" /> */}
-            <FaDiscord size={30} className="social discord" />
-            <FaPinterest size={30} className="social pinterest" />
+            <FaDiscord size={30} className="social discord me-2" />
+            <FaPinterest size={30} className="social pinterest me-2" />
           </div>
         </div>
       </div>
