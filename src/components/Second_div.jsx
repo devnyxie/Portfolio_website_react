@@ -18,11 +18,12 @@ export const Second_div = () => {
             <p>
               Hello, my name is Tim. I'm young and I love software development.
               I speak multiple languages (English, Greek, Russian, and Polish)
-              and like traveling. I'm passionate about programming, technology,
-              and innovation. I learn fast and would like to join a dynamic and
-              innovative team to develop my skills and deliver meaningful work.
-              At the moment, I'm finishing EPICODE's Master Camp to become a
-              Full-Stack Developer, but I'm already in search for a good job.
+              and, of course, I love traveling. I'm passionate about
+              programming, technology, and innovation. I learn fast and would
+              like to join a dynamic and innovative team to develop my skills
+              and deliver meaningful work. At the moment, I'm finishing
+              EPICODE's Master Camp to become a Full-Stack Developer, but I'm
+              already in search for a good job.
               <br />
               <div className="d-flex justify-content-around" id="skills">
                 <div>

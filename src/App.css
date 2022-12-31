@@ -110,7 +110,7 @@ br {
     width: 100%;
   }
   #about {
-    width: 100%;
+    width: 100% !important;
   }
   #skills {
     display: none;
