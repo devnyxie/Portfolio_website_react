@@ -5,7 +5,7 @@ export const Fourth_div = () => {
       <div className="bg-dark p-2 pb-4 text-light skills d-flex justify-content-center">
         <div className="container pt-2">
           <div className="d-flex justify-content-center">
-            <p className="w-75 text-center">
+            <p className="w-75 text-center " id="intro-projects">
               Below are just a few of the major projects that I have worked on
               in the past. I have worked with a wide range of applications
               ranging from mobile apps to fully responsive webapps.

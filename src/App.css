@@ -165,4 +165,10 @@ br {
   .overlay {
     font-size: 16px;
   }
+  .dont-show-on-mobile {
+    display: none;
+  }
+  #intro-projects {
+    width: 90% !important;
+  }
 }
