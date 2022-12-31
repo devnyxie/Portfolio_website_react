@@ -147,9 +147,6 @@ br {
 /*PROJECTS --> DATA (OVERLAY)           END*/
 /*                                                                        DIFF SIZES                                                                              */
 @media (max-width: 700px) {
-  #skills {
-    display: none;
-  }
   .heading {
     width: 85vw;
   }
@@ -164,5 +161,8 @@ br {
 
   .socials-section {
     width: 100%;
+  }
+  .overlay {
+    font-size: 16px;
   }
 }

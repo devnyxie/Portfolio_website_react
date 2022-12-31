@@ -11,9 +11,8 @@ export const Fourth_div = () => {
               ranging from mobile apps to fully responsive webapps.
             </p>
           </div>
-
-          <Row>
-            <Col xs={6}>
+          <Row className="row-cols-1 row-cols-md-2">
+            <Col className="mb-2">
               <div class="container_window">
                 <div class="top d-flex">
                   <span
@@ -57,7 +56,7 @@ export const Fourth_div = () => {
                 </div>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col>
               <div class="container_window">
                 <div class="top d-flex">
                   <span

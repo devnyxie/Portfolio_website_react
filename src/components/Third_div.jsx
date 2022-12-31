@@ -2,45 +2,41 @@ import { Row, Col } from "react-bootstrap";
 
 export const Background = () => {
   return (
-    <div
-      className="half-height"
-      style={{ backgroundColor: "#17191b" }}
-      id="skills"
-    >
-      <div className="d-flex justify-content-center align-items-center half-height text-light ">
+    <div className="p-3" style={{ backgroundColor: "#17191b" }} id="skills">
+      <div className="d-flex justify-content-center align-items-center  text-light ">
         <div className="text-center">
-          <h4 className="p-2">Things I code with:</h4>
+          <h4 className="p-1">Things I code with:</h4>
 
-          <Row className="d-flex justify-content-center mt-2 mb-2">
-            <Col xs={1}>
+          <Row className="container mt-2 mb-2">
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=html" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=css" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=bootstrap" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=nodejs" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=ts" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=react" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=redux" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=mongodb" />
             </Col>
-            <Col xs={1}>
+            <Col className="col">
               <img alt="" src="https://skillicons.dev/icons?i=git" />
             </Col>
           </Row>
-          <div id="stats" align="center">
+          <div id="stats">
             <img
               alt=""
               className="img"
