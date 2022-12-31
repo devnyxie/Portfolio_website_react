@@ -25,9 +25,9 @@ export const Second_div = () => {
               EPICODE's Master Camp to become a Full-Stack Developer, but I'm
               already in search for a good job.
               <br />
-              <div className="d-flex justify-content-around" id="skills">
-                <Row className=" row-cols-sm-1 row-cols-md-2">
-                  <Col xs={6}>
+              <div className="d-flex" id="skills">
+                <Row>
+                  <Col>
                     <h5>My front-end skills:</h5>
                     <ul>
                       <li>HTML+CSS</li>
@@ -36,7 +36,7 @@ export const Second_div = () => {
                     </ul>
                   </Col>
 
-                  <Col xs={6}>
+                  <Col>
                     <h5>My back-end skills:</h5>
                     <ul>
                       <li>Express.js</li>
