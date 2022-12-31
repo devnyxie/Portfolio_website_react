@@ -11,10 +11,7 @@ export const First_div = () => {
       <div className="bg-dark full-height first-div">
         <div className="position-absolute top-50 start-50 translate-middle text-light">
           <div className="d-flex heading">
-            <div
-              className="d-flex justify-content-center"
-              style={{ width: "1200px" }}
-            >
+            <div className="d-flex justify-content-center">
               <h4 className="span_one">Tim Afanasiev</h4>
               <h4 className="span_two">
                 Young & motivated Junior Full Stack Web Developer
