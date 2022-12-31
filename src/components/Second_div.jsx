@@ -28,7 +28,7 @@ export const Second_div = () => {
               <div className="d-flex" id="skills">
                 <Row>
                   <Col>
-                    <h5>My front-end skills:</h5>
+                    <h6>My front-end skills:</h6>
                     <ul>
                       <li>HTML+CSS</li>
                       <li>JavaScript/TypeScript</li>
@@ -37,7 +37,7 @@ export const Second_div = () => {
                   </Col>
 
                   <Col>
-                    <h5>My back-end skills:</h5>
+                    <h6>My back-end skills:</h6>
                     <ul>
                       <li>Express.js</li>
                       <li>MongoDB</li>
