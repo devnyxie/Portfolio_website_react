@@ -30,7 +30,7 @@ export const Background = () => {
               src="https://raw.githubusercontent.com/talmkg/github-stats/master/generated/languages.svg#gh-dark-mode-only"
             />
           </div>
-          <div className="mt-3">
+          {/* <div className="mt-3">
             <h5>Learning/Reading books about or Interested in:</h5>
             <img
               alt=""
@@ -52,7 +52,7 @@ export const Background = () => {
               className="m-1"
               src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
