@@ -199,3 +199,7 @@ br {
   aspect-ratio: 16/9;
   object-fit: cover !important;
 }
+.links {
+  text-decoration: none !important;
+  color: white;
+}

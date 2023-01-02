@@ -11,7 +11,10 @@ export const Fourth_div = () => {
               ranging from mobile apps to fully responsive webapps.
             </p>
           </div>
-          <Row className="row-cols-1 row-cols-md-1 row-cols-lg-2 d-flex justify-content-center">
+          <Row
+            className="row-cols-1 row-cols-md-1 row-cols-lg-2 d-flex justify-content-center"
+            id="projects"
+          >
             <Col className="mb-2">
               <div class="container_window">
                 <div class="top d-flex">

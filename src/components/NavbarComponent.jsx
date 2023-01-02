@@ -1,9 +1,8 @@
 import { Navbar, Container } from "react-bootstrap";
 import { BsCodeSlash } from "react-icons/bs";
-import { FaRegNewspaper } from "react-icons/fa";
+import { FaRegNewspaper, FaLaptopCode } from "react-icons/fa";
 import { SiAboutdotme } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
-import { TbBooks } from "react-icons/tb";
 export const NavbarComponent = () => {
   return (
     <>
@@ -25,8 +24,8 @@ export const NavbarComponent = () => {
             <Navbar.Brand className="text-light" href="#skills">
               <GiSkills size={24} />
             </Navbar.Brand>
-            <Navbar.Brand className="text-light" href="#">
-              <TbBooks size={24} />
+            <Navbar.Brand className="text-light" href="#projects">
+              <FaLaptopCode size={24} />
             </Navbar.Brand>
           </div>
         </Container>

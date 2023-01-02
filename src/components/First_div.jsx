@@ -21,11 +21,35 @@ export const First_div = () => {
         </div>
         <div>
           <div className="d-flex justify-content-around position-absolute bottom-0 start-0 text-light socials p-4 socials-section">
-            <FaGithubAlt size={30} className="social github me-2" />
-            <FaLinkedin size={30} className="social linkedin me-2" />
-            {/* <FaInstagram size={30} className="social instagram" /> */}
-            <FaDiscord size={30} className="social discord me-2" />
-            <FaPinterest size={30} className="social pinterest me-2" />
+            <a
+              href="https://github.com/talmkg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubAlt size={30} className="social github me-3 links" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/talmkg/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} className="social linkedin me-3 links" />
+            </a>
+
+            <a
+              href="https://discord.gg/CpVs6bTJD2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDiscord size={30} className="social discord me-3 links" />
+            </a>
+            <a
+              href="https://pinterest.com/talmkg_/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaPinterest size={30} className="social pinterest me-3 links " />
+            </a>
           </div>
         </div>
       </div>
