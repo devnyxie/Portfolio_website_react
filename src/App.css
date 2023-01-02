@@ -202,6 +202,20 @@ br {
   #intro-projects {
     width: 90% !important;
   }
+  .stat {
+    width: 95vw !important;
+  }
+  .project-description {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 70vw !important;
+  }
+}
+.readmore {
+  background-color: #813fcccb !important;
+  text-decoration: none;
 }
 .sixteen-to-nine {
   aspect-ratio: 16/9;

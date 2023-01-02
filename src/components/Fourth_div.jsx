@@ -1,4 +1,4 @@
-import { Row, Col, Badge, Carousel } from "react-bootstrap";
+import { Row, Col, Badge, Carousel, Button } from "react-bootstrap";
 export const Fourth_div = () => {
   return (
     <>
@@ -70,11 +70,20 @@ export const Fourth_div = () => {
                         </Badge>
                         <Badge bg="secondary opacity-75 me-1">API</Badge>
                       </span>
-                      <span>
+                      <span className="project-description">
                         Spotify Website's clone built on Deezer's API (Playable
                         songs, Albums page, Artist page, Search page) and
                         Bootstrap 5. There is also a recent version remade on
                         React.js & Redux, feel free to check out my Github!
+                      </span>
+                      <span>
+                        <a
+                          class="btn w-100 rounded readmore m-1 text-light"
+                          href="#"
+                          role="button"
+                        >
+                          Check it out!
+                        </a>
                       </span>
                     </div>
                   </div>
@@ -139,11 +148,20 @@ export const Fourth_div = () => {
                         </Badge>
                         <Badge bg="secondary opacity-75 me-1">API</Badge>
                       </span>
-                      <span>
+                      <span className="project-description">
                         Linkedin Website's Clone built on React.js (HTML, CSS,
                         JavaScript), Redux and Bootstrap 5. Posting, viewing
                         every possible profile of 3000 people and having
                         different experiences is possible.
+                      </span>
+                      <span>
+                        <a
+                          class="btn w-100 rounded readmore m-1 text-light"
+                          href="#"
+                          role="button"
+                        >
+                          Check it out!
+                        </a>
                       </span>
                     </div>
                   </div>
@@ -201,12 +219,21 @@ export const Fourth_div = () => {
                         </Badge>
                         <Badge bg="secondary opacity-75 me-1">API</Badge>
                       </span>
-                      <span>
+                      <span className="project-description">
                         Remote Job Search built on React.js, Redux & Bootstrap
                         4. Also, I've added Local Memory with the encrypted key,
                         which makes this application safe&secured. I've focused
                         on functionality and clear code, not the look of the web
                         application.
+                      </span>
+                      <span>
+                        <a
+                          class="btn w-100 rounded readmore m-1 text-light"
+                          href="#"
+                          role="button"
+                        >
+                          Check it out!
+                        </a>
                       </span>
                     </div>
                   </div>
@@ -268,9 +295,18 @@ export const Fourth_div = () => {
                         </Badge>
                         <Badge bg="secondary opacity-75 me-1">API</Badge>
                       </span>
-                      <span>
+                      <span className="project-description">
                         Netflix's clone built on HTML, CSS, JavaScript,
                         Bootstrap 5 and Private Epicode's API.
+                      </span>
+                      <span>
+                        <a
+                          class="btn w-100 rounded readmore m-1 text-light"
+                          href="#"
+                          role="button"
+                        >
+                          Check it out!
+                        </a>
                       </span>
                     </div>
                   </div>
@@ -326,9 +362,18 @@ export const Fourth_div = () => {
 
                         <Badge bg="secondary opacity-75 me-1">API</Badge>
                       </span>
-                      <span>
+                      <span className="project-description">
                         Weather Web Application built on React.js and
                         OpenWeather API with nice and minimalistic styling.
+                      </span>
+                      <span>
+                        <a
+                          class="btn w-100 rounded readmore m-1 text-light"
+                          href="#"
+                          role="button"
+                        >
+                          Check it out!
+                        </a>
                       </span>
                     </div>
                   </div>
