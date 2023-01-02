@@ -214,7 +214,7 @@ export const Fourth_div = () => {
                         <Badge bg="opacity-75 me-1" className="redux">
                           Redux
                         </Badge>
-                        <Badge bg="opacity-75 me-1" className="redux">
+                        <Badge bg="opacity-75 me-1" className="bootstrap">
                           Bootstrap 4
                         </Badge>
                         <Badge bg="secondary opacity-75 me-1">API</Badge>
