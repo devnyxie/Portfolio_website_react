@@ -1,0 +1,28 @@
+@import "/node_modules/bootstrap/scss/bootstrap";
+
+// Icons for within
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: $carousel-control-icon-width;
+  height: $carousel-control-icon-width;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  display: none;
+  opacity: 0;
+}
+.carousel-indicators {
+  display: none;
+  opacity: 0;
+
+  [data-bs-target] {
+    display: none;
+    opacity: 0;
+  }
+
+  .active {
+    display: none;
+    opacity: 0;
+  }
+}

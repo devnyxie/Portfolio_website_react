@@ -1,4 +1,5 @@
 import "./App.css";
+import "./scss/custom.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { First_div } from "./components/First_div";
 import { Second_div } from "./components/Second_div";
