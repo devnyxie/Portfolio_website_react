@@ -14,10 +14,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Roboto Mono", monospace;
-  /* filter: blur(2px) !important; */
 }
-
+.mono {
+  font-family: "Roboto Mono", monospace;
+}
 .full-height {
   height: 100vh;
 }
@@ -217,7 +217,6 @@ br {
   background: rgba(132, 71, 246, 0.12) !important;
   border-radius: 16px !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-
   -webkit-backdrop-filter: blur(3.8px) !important;
   border: 1px solid rgba(132, 71, 246, 0.3) !important;
 }

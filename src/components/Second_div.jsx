@@ -31,6 +31,7 @@ export const Second_div = () => {
                     <h6>My front-end skills:</h6>
                     <ul>
                       <li>HTML+CSS</li>
+                      <li>Bootstrap 5</li>
                       <li>JavaScript/TypeScript</li>
                       <li>React.js/Redux</li>
                     </ul>
@@ -39,6 +40,7 @@ export const Second_div = () => {
                   <Col>
                     <h6>My back-end skills:</h6>
                     <ul>
+                      <li>Node.js</li>
                       <li>Express.js</li>
                       <li>MongoDB</li>
                       <li>PostgreSQL</li>

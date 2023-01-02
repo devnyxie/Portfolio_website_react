@@ -1,5 +1,6 @@
 import { Row, Col, Badge, Carousel, Button } from "react-bootstrap";
 export const Fourth_div = () => {
+  const github = "https://github.com/talmkg/";
   return (
     <>
       <div className="bg-dark p-2 pb-4 text-light skills d-flex justify-content-center">
@@ -79,7 +80,9 @@ export const Fourth_div = () => {
                       <span>
                         <a
                           class="btn w-100 rounded readmore m-1 text-light"
-                          href="#"
+                          href={github.concat("spotify-redux")}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           role="button"
                         >
                           Check it out!
@@ -157,7 +160,9 @@ export const Fourth_div = () => {
                       <span>
                         <a
                           class="btn w-100 rounded readmore m-1 text-light"
-                          href="#"
+                          href="https://github.com/DrPleasure/linkedin-clone"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           role="button"
                         >
                           Check it out!
@@ -229,7 +234,9 @@ export const Fourth_div = () => {
                       <span>
                         <a
                           class="btn w-100 rounded readmore m-1 text-light"
-                          href="#"
+                          href={github.concat("searchJob_Redux")}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           role="button"
                         >
                           Check it out!
@@ -302,7 +309,9 @@ export const Fourth_div = () => {
                       <span>
                         <a
                           class="btn w-100 rounded readmore m-1 text-light"
-                          href="#"
+                          href={github.concat("netflix-project-ajax")}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           role="button"
                         >
                           Check it out!
@@ -369,7 +378,9 @@ export const Fourth_div = () => {
                       <span>
                         <a
                           class="btn w-100 rounded readmore m-1 text-light"
-                          href="#"
+                          href={github.concat("weatherapp_react")}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           role="button"
                         >
                           Check it out!

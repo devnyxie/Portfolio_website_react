@@ -10,16 +10,17 @@ function Footer() {
       style={{ borderRadius: "0%" }}
     >
       <Card.Body id="footer-inside">
-        <Card.Title>
+        <Card.Title className="mono">
           <h4 style={{ fontSize: "30px" }}>{tim}</h4>
         </Card.Title>
         <Card.Text>
           <hr />
           <p>Made with ❤️ by Tim Afanasiev.</p>
           <p className="text-muted">©2023 Tim Afanasiev</p>
-          <br />
-          <p>"The trick is to know what you're fighting for."</p>
-          <br />
+
+          <p className="mono pt-3 pb-3">
+            "The trick is to know what you're fighting for."
+          </p>
         </Card.Text>
       </Card.Body>
     </Card>
