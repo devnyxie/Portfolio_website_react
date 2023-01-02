@@ -1,4 +1,4 @@
-import { Row, Col, Badge } from "react-bootstrap";
+import { Row, Col, Badge, Carousel } from "react-bootstrap";
 export const Fourth_div = () => {
   return (
     <>
@@ -11,7 +11,7 @@ export const Fourth_div = () => {
               ranging from mobile apps to fully responsive webapps.
             </p>
           </div>
-          <Row className="row-cols-1 row-cols-md-2">
+          <Row className="row-cols-1 row-cols-md-1 row-cols-lg-2">
             <Col className="mb-2">
               <div class="container_window">
                 <div class="top d-flex">
@@ -30,26 +30,45 @@ export const Fourth_div = () => {
                 </div>
 
                 <div class="content">
-                  <img
-                    src="https://i.imgur.com/b7UTTkt.png"
-                    style={{
-                      width: "100%",
-                      aspectRatio: 16 / 9,
-                      objectFit: "cover",
-                    }}
-                    class="image"
-                  />
-                  <div class="overlay">
+                  <Carousel>
+                    <Carousel.Item interval={2850}>
+                      <img
+                        className="d-block w-100 sixteen-to-nine"
+                        src="https://i.imgur.com/b7UTTkt.png"
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2850}>
+                      <img
+                        className="d-block w-100 sixteen-to-nine"
+                        src="https://i.imgur.com/jNSgeUT.png"
+                        alt="Second slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2850}>
+                      <img
+                        className="d-block w-100 sixteen-to-nine"
+                        src="https://i.imgur.com/vHMuklS.png"
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel>
+                  <div class="overlay" style={{ zIndex: "3" }}>
                     <div>
-                      <span className="d-flex mx-4 mb-2">
-                        <Badge bg="primary opacity-75 me-1">Bootsrap 5</Badge>
-                        <Badge bg="warning opacity-75 me-1">Javascript</Badge>
+                      <span className="d-flex mb-2">
+                        <Badge bg="opacity-75 me-1" className="bootstrap">
+                          Bootsrap 5
+                        </Badge>
+                        <Badge bg="opacity-75 me-1" className="javascript">
+                          Javascript
+                        </Badge>
                         <Badge bg="secondary opacity-75 me-1">API</Badge>
                       </span>
                       <span>
                         Spotify Website's clone built on Deezer's API (Playable
                         songs, Albums page, Artist page, Search page) and
-                        Bootstrap 5.
+                        Bootstrap 5. There is also a recent version remade on
+                        React.js & Redux, feel free to check out my Github!
                       </span>
                     </div>
                   </div>
@@ -74,14 +93,51 @@ export const Fourth_div = () => {
                 </div>
 
                 <div class="content">
-                  <img
-                    src="https://i.imgur.com/Nyn5eqU.png"
-                    style={{
-                      width: "100%",
-                      aspectRatio: 16 / 9,
-                      objectFit: "cover",
-                    }}
-                  />
+                  <Carousel>
+                    <Carousel.Item interval={2850}>
+                      <img
+                        className="d-block w-100 sixteen-to-nine"
+                        src="https://i.imgur.com/a7UrREb.png"
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2850}>
+                      <img
+                        className="d-block w-100 sixteen-to-nine"
+                        src="https://i.imgur.com/WzqEtj6.png"
+                        alt="Second slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2850}>
+                      <img
+                        className="d-block w-100 sixteen-to-nine"
+                        src="https://i.imgur.com/A8smvsS.png"
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel>
+                  <div class="overlay pb-3" style={{ zIndex: "3" }}>
+                    <div>
+                      <span className="d-flex mb-2">
+                        <Badge bg="opacity-75 me-1" className="react">
+                          React.js
+                        </Badge>
+                        <Badge bg="opacity-75 me-1" className="redux">
+                          Redux
+                        </Badge>
+                        <Badge bg="opacity-75 me-1" className="bootstrap">
+                          Bootsrap 5
+                        </Badge>
+                        <Badge bg="secondary opacity-75 me-1">API</Badge>
+                      </span>
+                      <span>
+                        Linkedin Website's Clone built on React.js (HTML, CSS,
+                        JavaScript), Redux and Bootstrap 5. Posting, viewing
+                        every possible profile of 3000 people and having
+                        different experiences is possible.
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </Col>

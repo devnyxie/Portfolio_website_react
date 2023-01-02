@@ -105,15 +105,15 @@ br {
 }
 
 .container_window {
-  border: 3px solid #f1f1f1;
-  border-bottom: 4px solid #f1f1f1;
+  border: 3px solid #0d1117;
+  border-bottom: 4px solid #0d1117;
   border-radius: 5px;
 }
 
 .top {
   padding: 10px;
   margin: -1px;
-  background: #f1f1f1;
+  background: #0d1117;
   z-index: 2;
 }
 /*PROJECTS --> DATA (OVERLAY)              START*/
@@ -151,6 +151,23 @@ br {
   opacity: 1;
 }
 /*PROJECTS --> DATA (OVERLAY)           END*/
+/*Diff Technologies // Proper colors and stuff*/
+.bootstrap {
+  background-color: #7608f7;
+}
+.javascript {
+  background-color: #f0db4f;
+  color: #323330 !important;
+}
+.react {
+  background-color: #222222;
+  color: #5fd8f9 !important;
+}
+.redux {
+  color: #7346bb !important;
+  background-color: white;
+}
+
 /*                                                                        DIFF SIZES                                                                              */
 @media (max-width: 700px) {
   .heading {
@@ -177,4 +194,8 @@ br {
   #intro-projects {
     width: 90% !important;
   }
+}
+.sixteen-to-nine {
+  aspect-ratio: 16/9;
+  object-fit: cover !important;
 }
