@@ -6,7 +6,11 @@ import { GiSkills } from "react-icons/gi";
 export const NavbarComponent = () => {
   return (
     <>
-      <Navbar className="w-100" style={{ position: "fixed", zIndex: "3" }}>
+      <Navbar
+        className="w-100"
+        style={{ position: "fixed", zIndex: "3" }}
+        id="navbar-custom"
+      >
         <Container fluid className="mx-2 me-2  d-flex justify-content-between">
           <Navbar.Brand className="d-flex text-light no-p-no-m" href="#">
             <span>

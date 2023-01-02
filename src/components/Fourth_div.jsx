@@ -17,19 +17,22 @@ export const Fourth_div = () => {
           >
             <Col className="mb-2">
               <div class="container_window">
-                <div class="top d-flex">
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#ED594A" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#FDD800" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#5AC05A" }}
-                  ></span>
+                <div class="top d-flex align-items-center justify-content-between">
+                  <div>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#ED594A" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#FDD800" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#5AC05A" }}
+                    ></span>
+                  </div>
+                  <span className="me-1">Spotify</span>
                 </div>
 
                 <div class="content">
@@ -80,19 +83,22 @@ export const Fourth_div = () => {
             </Col>
             <Col className="mb-2">
               <div class="container_window">
-                <div class="top d-flex">
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#ED594A" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#FDD800" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#5AC05A" }}
-                  ></span>
+                <div class="top d-flex align-items-center justify-content-between">
+                  <div>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#ED594A" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#FDD800" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#5AC05A" }}
+                    ></span>
+                  </div>
+                  <span className="me-1">Linkedin</span>
                 </div>
 
                 <div class="content">
@@ -146,19 +152,22 @@ export const Fourth_div = () => {
             </Col>
             <Col className="mb-2">
               <div class="container_window">
-                <div class="top d-flex">
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#ED594A" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#FDD800" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#5AC05A" }}
-                  ></span>
+                <div class="top d-flex align-items-center justify-content-between">
+                  <div>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#ED594A" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#FDD800" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#5AC05A" }}
+                    ></span>
+                  </div>
+                  <span className="me-1">Remote Jobs Search</span>
                 </div>
 
                 <div class="content">
@@ -206,19 +215,22 @@ export const Fourth_div = () => {
             </Col>
             <Col className="mb-2">
               <div class="container_window">
-                <div class="top d-flex">
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#ED594A" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#FDD800" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#5AC05A" }}
-                  ></span>
+                <div class="top d-flex align-items-center justify-content-between">
+                  <div>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#ED594A" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#FDD800" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#5AC05A" }}
+                    ></span>
+                  </div>
+                  <span className="me-1">Netflix</span>
                 </div>
 
                 <div class="content">
@@ -267,19 +279,22 @@ export const Fourth_div = () => {
             </Col>
             <Col className="mb-2">
               <div class="container_window">
-                <div class="top d-flex">
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#ED594A" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#FDD800" }}
-                  ></span>
-                  <span
-                    class="dot me-1"
-                    style={{ background: "#5AC05A" }}
-                  ></span>
+                <div class="top d-flex align-items-center justify-content-between">
+                  <div>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#ED594A" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#FDD800" }}
+                    ></span>
+                    <span
+                      class="dot me-1"
+                      style={{ background: "#5AC05A" }}
+                    ></span>
+                  </div>
+                  <span className="me-1">Weather Application</span>
                 </div>
 
                 <div class="content">

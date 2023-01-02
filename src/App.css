@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
-/* :root {
-  overflow-x: hidden;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 .first-div {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgb(23, 25, 27)),
     url("https://images5.alphacoders.com/116/1160328.jpg");
@@ -10,6 +8,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#footer {
+  background-image: url("./data/wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto Mono", monospace;
+  /* filter: blur(2px) !important; */
+}
+
 .full-height {
   height: 100vh;
 }
@@ -111,7 +119,7 @@ br {
 }
 
 .top {
-  padding: 10px;
+  padding: 5px;
   margin: -1px;
   background: #0d1117;
   z-index: 2;
@@ -202,4 +210,7 @@ br {
 .links {
   text-decoration: none !important;
   color: white;
+}
+#navbar-custom {
+  backdrop-filter: blur(1px);
 }
