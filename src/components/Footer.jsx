@@ -4,7 +4,11 @@ import Card from "react-bootstrap/Card";
 function Footer() {
   const tim = "</Tim>";
   return (
-    <Card className="text-center text-light" id="footer">
+    <Card
+      className="text-center text-light"
+      id="footer"
+      style={{ borderRadius: "0%" }}
+    >
       <Card.Body id="footer-inside">
         <Card.Title>
           <h4 style={{ fontSize: "30px" }}>{tim}</h4>
@@ -15,7 +19,6 @@ function Footer() {
           <p className="text-muted">©2023 Tim Afanasiev</p>
           <br />
           <p>"The trick is to know what you're fighting for."</p>
-          <br />
           <br />
         </Card.Text>
       </Card.Body>

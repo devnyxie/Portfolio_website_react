@@ -138,7 +138,7 @@ br {
 }
 
 .overlay {
-  z-index: 1;
+  z-index: 3;
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
@@ -214,8 +214,12 @@ br {
   }
 }
 .readmore {
-  background-color: #813fcccb !important;
-  text-decoration: none;
+  background: rgba(132, 71, 246, 0.12) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+
+  -webkit-backdrop-filter: blur(3.8px) !important;
+  border: 1px solid rgba(132, 71, 246, 0.3) !important;
 }
 .sixteen-to-nine {
   aspect-ratio: 16/9;
