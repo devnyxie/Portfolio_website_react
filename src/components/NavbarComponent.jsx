@@ -2,6 +2,7 @@ import { Navbar, Container } from "react-bootstrap";
 import { BsCodeSlash } from "react-icons/bs";
 import { FaRegNewspaper, FaLaptopCode } from "react-icons/fa";
 import { SiAboutdotme } from "react-icons/si";
+import { IoReaderSharp } from "react-icons/io5";
 import { GiSkills } from "react-icons/gi";
 export const NavbarComponent = () => {
   return (
@@ -22,6 +23,12 @@ export const NavbarComponent = () => {
             {/* <Navbar.Brand className="text-light" href="#">
               <FaRegNewspaper size={24} alt="CV" />
             </Navbar.Brand> */}
+            <Navbar.Brand
+              className="text-light"
+              href="https://resume.io/r/0a9bLhNlc"
+            >
+              <IoReaderSharp size={24} />
+            </Navbar.Brand>
             <Navbar.Brand className="text-light" href="#about">
               <SiAboutdotme size={24} />
             </Navbar.Brand>
