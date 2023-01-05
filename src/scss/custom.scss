@@ -1,6 +1,5 @@
 @import "/node_modules/bootstrap/scss/bootstrap";
-
-// Icons for within
+@import "../App.css"; // Icons for within
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
