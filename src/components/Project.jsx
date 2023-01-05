@@ -95,11 +95,7 @@ export const Project = (obj, Link) => {
                   );
                 })}
               </span>
-              <span className="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                eligendi, incidunt sequi earum velit quod, quo ipsa ipsum
-                veritatis rem quidem amet aliquid libero.
-              </span>
+              <span className="project-description">{obj.Description}</span>
               <span>
                 <a
                   class="btn w-100 rounded readmore m-1 text-light"

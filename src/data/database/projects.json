@@ -40,11 +40,12 @@
       "https://i.imgur.com/VHesMZP.png",
       "https://i.imgur.com/yUeJvPG.jpg",
       "https://i.imgur.com/7oCkeLV.png",
-      "https://i.imgur.com/IkeGkjp.png"
+      "https://i.imgur.com/IkeGkjp.png",
+      "https://i.imgur.com/ItROt8F.jpg"
     ],
 
-    "Tech_stack": ["React.js", "Redux", "Bootstrap 5", "API"],
-    "Description": "Blablabla"
+    "Tech_stack": ["React.js", "CSS", "Bootstrap 5"],
+    "Description": "My personal portfolio website built on React.js, Bootstrap 5, CSS and Local Database. Fully responsive from mobile devices to wide computer screens."
   },
   {
     "Title": "Netflix Design",
@@ -54,7 +55,7 @@
       "https://i.imgur.com/OHkcxxg.png",
       "https://i.imgur.com/75yXfWX.png"
     ],
-    "Tech_stack": ["HTML", "CSS", "JavaScript", "Bootstrap 4"],
+    "Tech_stack": ["HTML", "CSS", "JavaScript", "Bootstrap 4", "API"],
     "Description": "Netflix's clone built on HTML, CSS, JavaScript, Bootstrap 5 and Private Epicode's API."
   }
 ]
