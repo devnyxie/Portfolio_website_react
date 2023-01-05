@@ -175,6 +175,18 @@ br {
   color: #7346bb !important;
   background-color: white;
 }
+.api {
+  background-color: #ff492c !important;
+  color: white;
+}
+.html {
+  background-color: #e44f26 !important;
+  color: white;
+}
+.css {
+  background-color: #1572b6 !important;
+  color: white;
+}
 
 /*                                                                        DIFF SIZES                                                                              */
 @media (max-width: 700px) {
